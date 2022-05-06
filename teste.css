@@ -1,0 +1,86 @@
+body {
+    color: #000;
+    font: 12px Verdana, sans-serif;
+}
+
+#conteudo {
+    width: 70%;
+    float: right;
+    text-align: center;
+}
+
+#menu {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#menu ul li {
+    margin: 0;
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+    list-style-type: none;
+}
+
+#menu a:link {
+    background: #F5F5F5;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+
+#menu a:hover {
+    background: #E5F0FF;
+    color: #039;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-shadow: 3px 0 5px 0 #e7e7e7;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 220px;
+    position: sticky;
+    top: 0;
+    width: 220px;
+    z-index: 100;
+}
+
+.nome-sidebar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 87%;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    bottom: 45%;
+}
+
+.menu{
+    position: absolute;
+bottom: 30%;
+
+background: #FFFFFF;
+}
