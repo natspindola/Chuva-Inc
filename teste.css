@@ -1,13 +1,185 @@
-body {
-    color: #000;
-    font: 12px Verdana, sans-serif;
+/* Parte superior */
+
+#container-primeiro {
+    position: absolute;
+    width: 1119px;
+    ;
+    height: 90px;
+    left: 230px;
+    top: 0px;
+    background: #FDF1EB;
 }
 
-#conteudo {
+.titulo1 {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 20px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.titulo2 {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 20px;
+    top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+
+.numero {
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 20px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.btn-lingua {
+    box-sizing: border-box;
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 740px;
+    top: 23px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.seta{
+    display: inline-block;
+    width: 5;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px dashed;
+    border-top: 5px solid \9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    text-align: center;
+}
+
+.bemvindo {
+    position: absolute;
+    width: 30%;
+    left: 700px;
+    right: 2.53%;
+    top: 10px;
+    bottom: 27.94%;
+    text-align: right;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.email {
+    position: absolute;
+    width: 30%;
+    left: 700px;
+    right: 2.53%;
+    top: 30px;
+    bottom: 27.94%;
+    text-align: right;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.imagem-login {
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+    border-radius: 50%;
+    width: 4%;
+}
+
+
+
+/* Sidebar */
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-shadow: 3px 0 5px 0 #e7e7e7;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 220px;
+    position: sticky;
+    top: 0;
+    width: 220px;
+    z-index: 100;
+}
+
+.nome-sidebar {
+    position: absolute;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 87%;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.nome {
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    bottom: 45%;
+}
+
+#conteudo-sidebar {
     width: 70%;
     float: right;
     text-align: center;
+    top: 0%;
 }
+
+.menu-sidebar {
+    position: absolute;
+    bottom: 30%;
+
+    background: #FFFFFF;
+}
+
 
 #menu {
     width: 30%;
@@ -36,51 +208,4 @@ body {
 #menu a:hover {
     background: #E5F0FF;
     color: #039;
-}
-
-#sidebar {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF;
-    box-shadow: 3px 0 5px 0 #e7e7e7;
-    height: 100vh;
-    min-height: 100vh;
-    min-width: 220px;
-    position: sticky;
-    top: 0;
-    width: 220px;
-    z-index: 100;
-}
-
-.nome-sidebar {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 87%;
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-}
-
-h2 {
-    color: #FFF;
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.logo {
-    position: absolute;
-    bottom: 45%;
-}
-
-.menu{
-    position: absolute;
-bottom: 30%;
-
-background: #FFFFFF;
 }
