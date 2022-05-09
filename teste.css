@@ -580,7 +580,7 @@ ul {
 }
 
 .container-tamanhoG {
-    height: 600px;
+    height: 480px;
     position: absolute;
 }
 
@@ -1432,6 +1432,7 @@ ul {
 .transicao8 {
     transform: translate(0px, 0px);
 }
+
 
 
 /* rodape */
