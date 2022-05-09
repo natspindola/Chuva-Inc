@@ -1003,7 +1003,7 @@ ul {
     position: absolute;
     width: 1001px;
     height: 31px;
-    left: -0.05%;
+    left: 0%;
     right: 0%;
     top: 250px;
     bottom: 0%;
@@ -1024,8 +1024,38 @@ ul {
     border-radius: 0px 0px 4px 0px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
+.negrito {
+    position: absolute;
+    width: 30px;
+    left: 20px;
+    right: 95.98%;
+    top: 0px;
+    bottom: 4.08%;
+    background: #EAF1F2;
+    color: #474747;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.italico {
+    position: absolute;
+    width: 30px;
+    left: 55px;
+    right: 90px;
+    top: 2px;
+    bottom: 4.08%;
+    background: #EAF1F2;
+    color: #474747;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 #topico1 {
     box-sizing: border-box;
