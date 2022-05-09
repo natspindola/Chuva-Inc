@@ -18,12 +18,13 @@ function verMais() {
         maisTexto.style.display = "inline";
         btnVerMais.innerHTML = "ver menos";
         btnVerMais.style.display = "none";
-        containerS.classList.remove("container-tamanhoP");
-        containerS.classList.add("container-tamanhoG");
+        container.classList.remove("container-tamanhoP");
+        container.classList.add("container-tamanhoG");
         containerS.classList.remove("transicao1");
         containerS.classList.add("transicao2");
     }
 }
+
 
 var btn = document.getElementById('btnResp1');
 var container = document.querySelector('.resposta1');
@@ -55,7 +56,6 @@ btn2.addEventListener('click', function () {
         containerS.style.display = 'block';
         container2.classList.remove("transicao5");
         container2.classList.add("transicao6");
-        
     }
 });
 

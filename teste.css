@@ -580,7 +580,7 @@ ul {
 }
 
 .container-tamanhoG {
-    height: 480px;
+    height: 470px;
     position: absolute;
 }
 
@@ -910,6 +910,123 @@ ul {
     top: -5px;
 }
 
+.criarTopico {
+    position: absolute;
+    width: 1042px;
+    height: 183px;
+    left: 40px;
+    top: 55px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.tituloTop {
+    position: absolute;
+    left: 2.81%;
+    right: 3%;
+    top: 0%;
+    bottom: 92.65%;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.assunto {
+    position: absolute;
+    width: 1020.52px;
+    left: -0.47px;
+    top: 45px;
+    bottom: 75.92%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+#assunto {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1000px;
+    height: 39px;
+    left: -0.47px;
+    right: -0.05px;
+    top: 85px;
+    bottom: 146px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.conteudo {
+    position: absolute;
+    width: 1020.52px;
+    left: -0.47px;
+    top: 135px;
+    bottom: 75.92%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+#conteudo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: -0.47px;
+    right: -0.05px;
+    top: 175px;
+    bottom: 146px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.barra {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1001px;
+    height: 31px;
+    left: -0.05%;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.criarTop {
+    position: absolute;
+    height: 30px;
+    left: 79.84%;
+    right: 0px;
+    top: 0px;
+    bottom: 0%;
+    font-family: "Quicksand", sans-serif;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
 #topico1 {
     box-sizing: border-box;
     position: absolute;
@@ -984,6 +1101,8 @@ ul {
     background-color: transparent;
     color: darkgrey;
 }
+
+
 
 .resposta1 {
     box-sizing: border-box;
@@ -1414,7 +1533,7 @@ ul {
 }
 
 .transicao4 {
-    transform: translate(0px, 150px);
+    transform: translate(0px, 120px);
 }
 
 #transicao5 {
