@@ -661,14 +661,6 @@ ul {
     border-radius: 3px;
 }
 
-.transicao1 {
-    transform: translate(0px, 0px);
-}
-
-.transicao2 {
-    transform: translate(0px, 350px);
-}
-
 .discussoes {
     box-sizing: border-box;
     position: absolute;
@@ -895,7 +887,6 @@ ul {
     background: #F4F4F4;
 }
 
-
 #btnTopico {
     position: absolute;
     width: 140px;
@@ -1010,14 +1001,6 @@ ul {
     display: none;
 }
 
-#transicao3 {
-    transform: translate(0px, 0px);
-}
-
-.transicao4 {
-    transform: translate(0px, 150px);
-}
-
 #container1 {
     box-sizing: border-box;
     position: absolute;
@@ -1124,6 +1107,7 @@ ul {
     color: darkgrey;
 }
 
+
 .resposta2 {
     box-sizing: border-box;
     position: absolute;
@@ -1138,14 +1122,6 @@ ul {
     border: 1px solid #E7E7E7;
     border-radius: 0px;
     display: none;
-}
-
-#transicao7 {
-    transform: translate(0px, 0px);
-}
-
-.transicao8 {
-    transform: translate(0px, 0px);
 }
 
 .nomeResp2 {
@@ -1177,28 +1153,19 @@ ul {
     color: #4D4D4D;
 }
 
+
 .resposta3 {
     box-sizing: border-box;
     position: absolute;
     left: 0px;
     right: 0px;
     height: 130px;
-    top: 300px;
+    top: 129px;
     padding: 2px;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
-    background: #F8F8F8;
     border: 1px solid #E7E7E7;
     border-radius: 0px;
-
-}
-
-#transicao5 {
-    transform: translate(0px, 0px);
-}
-
-.transicao6 {
-    transform: translate(0px, 150px);
 }
 
 .nomeResp3 {
@@ -1237,26 +1204,13 @@ ul {
     left: 0px;
     right: 0px;
     height: 130px;
-    top: 60px;
+    top: 255px;
     padding: 2px;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     background: #F8F8F8;
     border: 1px solid #E7E7E7;
     border-radius: 0px;
-    display: none;
-}
-
-.hide {
-    display: none;
-}
-
-#transicao5 {
-    transform: translate(0px, 0px);
-}
-
-.transicao6 {
-    transform: translate(0px, 150px);
 }
 
 .nomeResp4 {
@@ -1295,26 +1249,12 @@ ul {
     left: 0px;
     right: 0px;
     height: 130px;
-    top: 10px;
+    top: 385px;
     padding: 2px;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
-    background: #F8F8F8;
     border: 1px solid #E7E7E7;
     border-radius: 0px;
-    display: none;
-}
-
-.hide {
-    display: none;
-}
-
-#transicao5 {
-    transform: translate(0px, 0px);
-}
-
-.transicao6 {
-    transform: translate(0px, 150px);
 }
 
 .nomeResp5 {
@@ -1458,6 +1398,40 @@ ul {
     cursor: pointer;
 }
 
+
+/* transições */
+
+.transicao1 {
+    transform: translate(0px, 0px);
+}
+
+.transicao2 {
+    transform: translate(0px, 350px);
+}
+
+#transicao3 {
+    transform: translate(0px, 0px);
+}
+
+.transicao4 {
+    transform: translate(0px, 150px);
+}
+
+#transicao5 {
+    transform: translate(0px, 0px);
+}
+
+.transicao6 {
+    transform: translate(0px, 150px);
+}
+
+#transicao7 {
+    transform: translate(0px, 0px);
+}
+
+.transicao8 {
+    transform: translate(0px, 0px);
+}
 
 
 /* rodape */

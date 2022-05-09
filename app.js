@@ -44,21 +44,18 @@ btn.addEventListener('click', function () {
 var btn2 = document.getElementById('btnResp2');
 var containerS = document.querySelector('.resposta2');
 var container2 = document.getElementById("container2");
-var container3 = document.getElementById("container3");
 btn2.addEventListener('click', function () {
 
     if (containerS.style.display === 'block') {
         containerS.style.display = 'none';
         container2.classList.remove("transicao6");
         container2.classList.add("transicao5");
-        container3.classList.remove("transicao8");
-        container3.classList.add("transicao7");
+        
     } else {
         containerS.style.display = 'block';
         container2.classList.remove("transicao5");
         container2.classList.add("transicao6");
-        container3.classList.remove("transicao7");
-        container3.classList.add("transicao8");
+        
     }
 });
 
