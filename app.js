@@ -59,3 +59,16 @@ btn2.addEventListener('click', function () {
     }
 });
 
+var btnTopico = document.getElementById("btnTopico");
+var criarTopico = document.getElementById("criarTopico");
+var compartilhe = document.getElementById("compartilhe");
+btnTopico.addEventListener('click', function () {
+
+    if (criarTopico.style.display === 'block') {
+        criarTopico.style.display = 'none';
+        compartilhe.style.display = 'block';
+    } else {
+        criarTopico.style.display = 'block';
+        compartilhe.style.display = 'none';
+    }
+});

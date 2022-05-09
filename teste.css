@@ -917,6 +917,7 @@ ul {
     left: 40px;
     top: 55px;
     font-family: "Quicksand", sans-serif;
+    display: none;
 }
 
 .tituloTop {
