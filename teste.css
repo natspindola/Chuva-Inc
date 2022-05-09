@@ -1058,6 +1058,74 @@ ul {
     cursor: pointer;
 }
 
+.enviarTopico {
+    position: absolute;
+    width: 1042px;
+    height: 183px;
+    left: 40px;
+    top: 55px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.tituloEnvio {
+    position: absolute;
+    left: 2.81%;
+    right: 3%;
+    top: 0%;
+    bottom: 92.65%;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #ED7839
+}
+
+.textoEnvio {
+    position: absolute;
+    left: 10.7%;
+    right: 13.26%;
+    top: 56.87%;
+    bottom: 41.81%;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+
+
+.outrosTrab {
+    position: absolute;
+    left: 34.35%;
+    right: 36.74%;
+    top: 60.11%;
+    bottom: 38.57%;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+}
+
+.criarNovoTop {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+
 #topico1 {
     box-sizing: border-box;
     position: absolute;
