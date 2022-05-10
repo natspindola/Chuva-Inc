@@ -57,7 +57,7 @@
 }
 
 #menu {
-    position: fixed;
+    position: absolute;
     width: 16%;
     margin: 0;
     top: 50%;
@@ -68,8 +68,8 @@
 }
 
 #menu ul li {
+    position: absolute;
     margin: 0;
-    padding: 0px;
     border-bottom: 1px solid #CCC;
     text-align: left;
     list-style-type: none;
@@ -78,8 +78,9 @@
     font-weight: bold;
     text-decoration: none;
     padding: 8px;
-    display: block;
-    right: 50%;
+    display:list-item;
+    right: 10px;
+    top: 500px;
     cursor: pointer;
     padding-left: 15%;
 }
@@ -266,6 +267,7 @@ ul {
 
 .titulo {
     position: absolute;
+    width: 800px;
     height: 100px;
     left: 250px;
     right: 320px;
@@ -281,11 +283,10 @@ ul {
 .btn-download {
     box-sizing: border-box;
     position: absolute;
-    width: 10%;
-    left: 81%;
-    right: 10%;
-    top: 16%;
-    bottom: 79%;
+    width: 139px;
+    height: 31px;
+    left: 1090px;
+    top: 100px;
     text-align: center;
     padding: 15px 35px;
     background: #ED7839;
@@ -298,7 +299,6 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -333,10 +333,10 @@ ul {
 .btn-favorito {
     box-sizing: border-box;
     position: absolute;
-    width: 3%;
-    left: 1235px;
-    right: 10%;
-    top: 16%;
+    width: 42px;
+    height: 31px;
+    left: 1234px;
+    top: 100px;
     bottom: 79%;
     padding: 15px 15px;
     background: #ED7839;
@@ -345,7 +345,6 @@ ul {
     color: #FFFFFF;
     text-align: center;
     font-size: 100%;
-    display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -366,11 +365,10 @@ ul {
 .btn-doi {
     box-sizing: border-box;
     position: absolute;
-    width: 3%;
-    left: 95%;
-    right: 10%;
-    top: 16%;
-    bottom: 79%;
+    width: 42px;
+    height: 31px;
+    left: 1280px;
+    top: 100px;
     text-align: center;
     padding: 15px 15px;
     background: #ED7839;
@@ -378,7 +376,6 @@ ul {
     font-size: 120%;
     color: #FFFFFF;
     align-items: center;
-    display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -397,15 +394,15 @@ ul {
 
 .citar-trabalho {
     position: absolute;
+    width: 250px;
     height: 30px;
-    right: 25px;
+    left: 1090px;
     top: 105px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    text-align: right;
     letter-spacing: 0.05em;
     color: #ED7839;
     cursor: pointer;
