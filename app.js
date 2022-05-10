@@ -29,33 +29,43 @@ function verMais() {
 var btn = document.getElementById('btnResp1');
 var container = document.querySelector('.resposta1');
 var container1 = document.getElementById("container1");
+var rodape1 = document.getElementById("rodape1");
 btn.addEventListener('click', function () {
 
     if (container.style.display === 'block') {
         container.style.display = 'none';
         container1.classList.remove("transicao4");
         container1.classList.add("transicao3");
+        rodape1.classList.remove("transicao15");
+        rodape1.classList.add("transicao14");
     } else {
         container.style.display = 'block';
         container1.classList.remove("transicao3");
         container1.classList.add("transicao4");
+        rodape1.classList.remove("transicao14");
+        rodape1.classList.add("transicao15");
     }
 });
 
 var btn2 = document.getElementById('btnResp2');
 var containerS = document.querySelector('.resposta2');
 var container2 = document.getElementById("container2");
+var rodape2 = document.getElementById("rodape2");
 btn2.addEventListener('click', function () {
 
     if (containerS.style.display === 'block') {
         containerS.style.display = 'none';
         container2.classList.remove("transicao6");
         container2.classList.add("transicao5");
+        rodape2.classList.remove("transicao17");
+        rodape2.classList.add("transicao16");
         
     } else {
         containerS.style.display = 'block';
         container2.classList.remove("transicao5");
         container2.classList.add("transicao6");
+        rodape2.classList.remove("transicao16");
+        rodape2.classList.add("transicao17");
     }
 });
 
@@ -86,7 +96,7 @@ btnEnviar.addEventListener('click', function () {
         mudarTopico.classList.remove("transicao10");
         mudarTopico.classList.add("transicao9");
         topicoNovo.style.display = 'none';
-        feedback.style.display = 'none';
+        feedback.style.display = 'none';  
     } else {
         enviarTopico.style.display = 'block';
         enviar.style.display = 'none';

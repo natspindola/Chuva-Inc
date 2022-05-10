@@ -12,7 +12,7 @@
     top: 0px;
     left: 0px;
     width: 220px;
-    height: 2000px;
+    height: 1000px;
     z-index: 100;
 }
 
@@ -1762,14 +1762,29 @@ ul {
     transform: translate(0px, 90px);
 }
 
+.translate14 {
+    transform: translate(0px, 0px);
+}
+
+.transicao15 {
+    transform: translate(0px, 100px);
+}
+
+.translate16 {
+    transform: translate(0px, 0px);
+}
+
+.transicao17 {
+    transform: translate(0px, 500px);
+}
 
 /* rodape */
 
 .rodape {
     position: absolute;
-    height: 200px;
-    width: 1100px;
-    top: 1700px;
-    left: 240px;
+    height: 100px;
+    width: 100px;
+    top: 840px;
+    left: 10px;
     line-height: 100px;
 }
