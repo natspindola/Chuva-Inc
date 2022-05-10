@@ -72,3 +72,17 @@ btnTopico.addEventListener('click', function () {
         compartilhe.style.display = 'none';
     }
 });
+
+var btnEnviar = document.getElementById("btnEnviar");
+var enviarTopico = document.getElementById("enviarTopico");
+var enviar = document.getElementById("enviar");
+btnEnviar.addEventListener('click', function () {
+    if(enviarTopico.style.display === 'block') {
+        enviarTopico.style.display = 'none';
+        enviar.style.display = 'block';
+    } else {
+        enviarTopico.style.display = 'block';
+        enviar.style.display = 'none';
+    }
+});
+
