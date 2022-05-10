@@ -76,13 +76,70 @@ btnTopico.addEventListener('click', function () {
 var btnEnviar = document.getElementById("btnEnviar");
 var enviarTopico = document.getElementById("enviarTopico");
 var enviar = document.getElementById("enviar");
+var topicoNovo = document.getElementById("topicoNovo");
+var mudarTopico = document.getElementById("mudarTopico");
+var feedback = document.getElementById("feedback");
 btnEnviar.addEventListener('click', function () {
     if(enviarTopico.style.display === 'block') {
         enviarTopico.style.display = 'none';
         enviar.style.display = 'block';
+        mudarTopico.classList.remove("transicao10");
+        mudarTopico.classList.add("transicao9");
+        topicoNovo.style.display = 'none';
+        feedback.style.display = 'none';
     } else {
         enviarTopico.style.display = 'block';
         enviar.style.display = 'none';
+        mudarTopico.classList.remove("transicao9");
+        mudarTopico.classList.add("transicao10");
+        topicoNovo.style.display = 'block';
+        feedback.style.display = 'block';
     }
 });
 
+var btnCriarNovoTop = document.getElementById("btnCriarNovoTop");
+var enviarTopico = document.getElementById("enviarTopico");
+var criarTopico = document.getElementById("criarTopico");
+var topicoNovo = document.getElementById("topicoNovo");
+var feedback = document.getElementById("feedback");
+var mudarTopico = document.getElementById("mudarTopico");
+btnCriarNovoTop.addEventListener('click', function () {
+    if(criarTopico.style.display === 'none') {
+        criarTopico.style.display = 'none';
+        enviarTopico.style.display = 'block';
+        topicoNovo.style.display = 'block';
+        feedback.style.display = 'block';
+        mudarTopico.classList.remove("transicao9");
+        mudarTopico.classList.add("transicao10");
+    } else {
+        criarTopico.style.display = 'block';
+        enviarTopico.style.display = 'none';
+        enviar.style.display = 'block';
+        topicoNovo.style.display = 'none';
+        feedback.style.display = 'none';
+        mudarTopico.classList.remove("transicao10");
+        mudarTopico.classList.add("transicao9");
+    }
+})
+
+document.getElementById("btnEnviar").addEventListener("click", function() {
+    clearInputText("entrada");
+  });
+  
+  function clearInputText(name) {
+    var entradas = document.querySelectorAll("input[name='"+name+"']");
+    [].map.call(entradas, entrada => entrada.value = '');
+  }
+
+  document.getElementById("btnEnviar").addEventListener("click", function() {
+    clearTextArea("entrada");
+  });
+  
+  function clearTextArea(name) {
+    var entradas = document.querySelectorAll("input[name='"+name+"']");
+    [].map.call(entradas, entrada => entrada.value = '');
+  }
+
+  function eraseText() {
+    document.getElementById("conteudo").value = "";
+}
