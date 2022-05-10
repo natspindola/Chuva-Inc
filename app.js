@@ -30,6 +30,7 @@ var btn = document.getElementById('btnResp1');
 var container = document.querySelector('.resposta1');
 var container1 = document.getElementById("container1");
 var rodape1 = document.getElementById("rodape1");
+var container6 = document.getElementById("container6");
 btn.addEventListener('click', function () {
 
     if (container.style.display === 'block') {
@@ -38,12 +39,16 @@ btn.addEventListener('click', function () {
         container1.classList.add("transicao3");
         rodape1.classList.remove("transicao15");
         rodape1.classList.add("transicao14");
+        container6.classList.remove("tamanhoG1");
+        container6.classList.add("tamanhoP1");
     } else {
         container.style.display = 'block';
         container1.classList.remove("transicao3");
         container1.classList.add("transicao4");
         rodape1.classList.remove("transicao14");
         rodape1.classList.add("transicao15");
+        container6.classList.remove("tamanhoP1");
+        container6.classList.add("tamanhoG1");
     }
 });
 
@@ -51,14 +56,16 @@ var btn2 = document.getElementById('btnResp2');
 var containerS = document.querySelector('.resposta2');
 var container2 = document.getElementById("container2");
 var rodape2 = document.getElementById("rodape2");
+var container6p = document.getElementById("container6.1");
 btn2.addEventListener('click', function () {
-
     if (containerS.style.display === 'block') {
         containerS.style.display = 'none';
         container2.classList.remove("transicao6");
         container2.classList.add("transicao5");
         rodape2.classList.remove("transicao17");
         rodape2.classList.add("transicao16");
+        container6p.classList.remove("tamanhoG2");
+        container6p.classList.add("tamanhoP2");
         
     } else {
         containerS.style.display = 'block';
@@ -66,6 +73,8 @@ btn2.addEventListener('click', function () {
         container2.classList.add("transicao6");
         rodape2.classList.remove("transicao16");
         rodape2.classList.add("transicao17");
+        container6p.classList.remove("tamanhoP2");
+        container6p.classList.add("tamanhoG2");
     }
 });
 

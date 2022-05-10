@@ -653,10 +653,39 @@ ul {
 #container-sexto {
     box-sizing: border-box;
     position: absolute;
-    width: 1070px;
-    height: 725px;
     left: 245px;
     top: 820px;
+    
+}
+
+.tamanhoP1 {
+    position: absolute;
+    width: 1070px;
+    height: 725px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.tamanhoG1 {
+    position: absolute;
+    width: 1070px;
+    height: 850px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.tamanhoP2 {
+    position: absolute;
+    width: 1070px;
+    height: 725px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.tamanhoG2 {
+    position: absolute;
+    width: 1070px;
+    height: 1240px;
     border: 1px solid #ECECEC;
     border-radius: 3px;
 }
@@ -1778,13 +1807,21 @@ ul {
     transform: translate(0px, 500px);
 }
 
+.translate18 {
+    transform: translate(20px, 0px);
+}
+
+.transicao19 {
+    transform: translate(5px, 0px);
+}
+
 /* rodape */
 
-.rodape {
+.footer {
     position: absolute;
     height: 100px;
     width: 100px;
-    top: 840px;
-    left: 10px;
+    top: 1700px;
+    left: 250px;
     line-height: 100px;
 }
